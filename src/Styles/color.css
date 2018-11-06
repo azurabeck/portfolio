@@ -1,0 +1,7 @@
+body {
+    --red: #D04C51;
+}
+
+.red {
+    color: var(--red)
+}
