@@ -17,3 +17,16 @@ code {
 .App {
   text-align: center;
 }
+
+.appBg {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  background: url('http://www.teamopenoffice.org/pimages/12/122408/artistic-wallpapers-for-android.jpg');
+  background-size: cover;
+  z-index: 1;
+  color: white;
+}
