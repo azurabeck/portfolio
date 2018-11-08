@@ -1,15 +1,18 @@
 import React, { Component } from 'react'
-import { Row, Col } from 'react-bootstrap'
-
+import Roll from 'react-reveal/Roll';
 
 class About extends Component {
+
+
     render() {
         return (
-            <div className='about'>
-                <div className='aboutContainer'>
-                    <label>About</label>
+            <Roll left>
+                <div className='about'>
+                    <div className='aboutContainer'>
+                        <label>About</label>
+                    </div>
                 </div>
-            </div>
+            </Roll>
         )
     }
 }

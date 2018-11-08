@@ -1,15 +1,18 @@
 import React, { Component } from 'react'
-import { Row, Col } from 'react-bootstrap'
+import Fade from 'react-reveal/Flip';
 
 
 class Skills extends Component {
+
     render() {
         return (
-            <div className='skills'>
-                <div className='skillsContainer'>
-                    <label>Skills</label>
+            <Fade top>
+                <div className='skills'>
+                    <div className='skillsContainer'>
+                        <label>Skills</label>
+                    </div>
                 </div>
-            </div>
+            </Fade>            
         )
     }
 }

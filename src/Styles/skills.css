@@ -2,11 +2,12 @@
     position: absolute;
     display: block;
     background-color: blueviolet;
-    color: white;
+    color: #ffffff;
     z-index: 2;
 
-    top: 10vh;
-    right: 25%;
-    height: 90vh;    
-    width: 50%;
+    top: 6vh;
+    left: 0;
+    height: 94vh;    
+    width: 100%;
 }
+
