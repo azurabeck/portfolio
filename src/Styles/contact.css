@@ -1,12 +1,12 @@
-.about {
+.contact {
     position: absolute;
     display: block;
-    background-color: brown;
+    background-color: yellowgreen;
     color: white;
     z-index: 2;
 
     top: 12vh;
-    left: 0;
+    right: 0;
     height: 88vh;    
     width: 50%;
 }

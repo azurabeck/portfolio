@@ -1,12 +1,12 @@
-.about {
+.skills {
     position: absolute;
     display: block;
-    background-color: brown;
+    background-color: blueviolet;
     color: white;
     z-index: 2;
 
-    top: 12vh;
-    left: 0;
-    height: 88vh;    
+    top: 10vh;
+    right: 25%;
+    height: 90vh;    
     width: 50%;
 }
