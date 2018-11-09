@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faPinterest, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
@@ -11,9 +10,9 @@ class Home extends Component {
         return (
             <div id='home'>      
 
-                <div class="welcome-image-area">
-                    <div class="display-table">
-                        <div class="display-table-cell">
+                <div className="welcome-image-area">
+                    <div className="display-table">
+                        <div className="display-table-cell">
 
                             <label className='titleHome'>
                               <span className='work'>WORK</span><br />                                
@@ -33,14 +32,14 @@ class Home extends Component {
 
 
                 <div className='header-footer-area'>
-                    <div class="arrowSliding">
-                        <div class="arrow"></div>
+                    <div className="arrowSliding">
+                        <div className="arrow"></div>
                     </div>
-                    <div class="arrowSliding delay1">
-                        <div class="arrow"></div>
+                    <div className="arrowSliding delay1">
+                        <div className="arrow"></div>
                     </div>
-                    <div class="arrowSliding delay2">
-                        <div class="arrow"></div>
+                    <div className="arrowSliding delay2">
+                        <div className="arrow"></div>
                     </div>
                 </div>
      
