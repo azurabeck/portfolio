@@ -1,8 +1,7 @@
 import React, {Component} from 'react'
 import { Link } from 'react-router-dom'
-import {Grid, Row, Col} from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faGithub, faPinterest, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faPinterest, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 class Home extends Component {
 
