@@ -36,7 +36,7 @@
     margin-right: 15px;
   }
   
-  .menu > ul > li {
+  .menu > ul > li a {
       color: #fff;
       font-size: 1.1rem;
       font-weight: 700;
