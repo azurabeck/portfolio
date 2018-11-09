@@ -18,8 +18,31 @@ class About extends Component {
                                 <label id='isAbout'><span id='is'>is</span> <span id='about'>about</span></label><br />
                                 <label id='me'>me!</label>
 
+                                <div className='mobileMenu'>
+                                
+                                    <div className='positionMenu'>
+                                        <ul>
+                                            <Link to='/skills'>
+                                                <li className='buttonSkills'>
+                                                    <label>skills</label>
+                                                </li>
+                                            </Link>
+                                            <Link to='/contact'>
+                                                <li className='buttonContact'>
+                                                    <label>contact</label>
+                                                </li>
+                                            </Link>
+                                            <Link to='/home'>
+                                                <li className='buttonHome'>
+                                                    <label>close</label>
+                                                </li>
+                                            </Link>
+                                        </ul>                                    
+                                    </div>
+                                
+                                </div>
                             </Col>
-                            <Col md={4}>                            
+                            <Col md={4} className='aboutHeaderTitleCenter'>                            
                                 <label className='experience'>7 <span id='years'>years</span></label>    
                             </Col>
                             <Col md={4} className='aboutHeaderTitleRight'>
