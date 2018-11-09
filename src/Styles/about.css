@@ -39,11 +39,9 @@
 }
 
 .aboutHeaderTitleRight {
-    text-align: justify;
-    color: #969696;
-    margin-top: 3vh;
     font-size: 1.6rem;
-    opacity: 0.5;
+    height: 100%;
+    text-align: center;
 }
 
 .aboutHeaderTitle {
@@ -95,7 +93,51 @@
     color: white;
 }
 
+.aboutHeaderTitleRight > ul > a:hover {
+    text-decoration: none;
+}
 
+.aboutHeaderTitleRight > ul {
+    list-style: none;
+    display: inline-flex;
+    height: 100%;
+}
+
+.buttonSkills , .buttonContact, .buttonHome {
+    display: table;
+    color: white;
+    width: 100px;
+    height: 100%;
+    text-align: center;
+}
+
+.buttonSkills {
+    background-color: var(--blue);
+    transform: skew(20deg);
+}
+.buttonContact {
+    background-color: var(--red);
+    transform: skew(20deg);
+}
+.buttonHome {
+    background-color: #333;
+    transform: skew(20deg);
+}
+.buttonSkills:hover {
+    background-color: var(--darkerBlue);
+}
+.buttonContact:hover {
+    background-color: var(--darkerRed);
+}
+.buttonHome:hover {
+    background-color: black;   
+}
+
+.buttonText {
+    display: table-cell;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
 
 /* #region Text */
 

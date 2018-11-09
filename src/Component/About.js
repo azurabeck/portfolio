@@ -23,11 +23,23 @@ class About extends Component {
                                 <label className='experience'>7 <span id='years'>years</span></label>    
                             </Col>
                             <Col md={4} className='aboutHeaderTitleRight'>
-
-                                <Link to='/skills'><label className='buttonSkills'>skills</label></Link>
-                                <Link to='/contact'><label className='buttonContact'>contact</label></Link>
-                                <Link to='/home'><label className='buttonHome'>home</label></Link>                                
-                                
+                                <ul>
+                                    <Link to='/skills'>
+                                        <li className='buttonSkills'>
+                                            <label className='buttonText'>skills</label>
+                                        </li>
+                                    </Link>
+                                    <Link to='/contact'>
+                                        <li className='buttonContact'>
+                                            <label className='buttonText'>contact</label>
+                                        </li>
+                                    </Link>
+                                    <Link to='/home'>
+                                        <li className='buttonHome'>
+                                            <label className='buttonText'>close</label>
+                                        </li>
+                                    </Link>
+                                </ul>
                             </Col>
                         </Row>
                         <Row>
